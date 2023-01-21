@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+      <!-- Favicon -->
+      <link rel="icon" href="assets/images/logo.png" type="image/ico" sizes="16x16" />
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+      <!-- Animation CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+      <!-- Stylesheet -->
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+      <title>BADCO</title>
+   </head>
+   <body>
+      <!-- header -->
+      <header>
+         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+            <div class="collapse navbar-collapse d-none d-lg-block" id="navbarSupportedContent">
+               <ul class="navbar-nav center-nav">
+                  <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                  <li class="nav-item"><a class="nav-link" href="products.html">SHOP </a></li>
+                  <li class="nav-item"><a class="nav-link" href="media.html">LOOKBOOK</a></li>
+               </ul>
+            </div>
+            <a class="navbar-brand py-0" href="index.html">
+            <img src="assets/images/logo.png" alt="logo">
+            </a>
+            <!-- Icon -->
+            <div class="icon d-flex align-items-center order-2 order-lg-3">
+               <a href="javascript:void(0);">
+               <img src="assets/images/icons/search.png" alt="search">
+               </a>
+               <a href="shopping-cart.html">
+               <img src="assets/images/icons/bag.png" alt="wallet">
+               </a>
+               <a href="javascript:void(0);">
+               <img src="assets/images/icons/man.png" alt="profile">
+               </a>
+               <a href="javascript:void(0);">
+               <img src="assets/images/icons/world.png" alt="world">
+               </a>
+            </div>
+            <button class="navbar-toggler order-3 order-lg-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse ml-auto order-3 order-lg-2 justify-content-center" id="navbarSupportedContent">
+               <ul class="navbar-nav center-nav">
+                  <li class="nav-item d-block d-lg-none"><a class="nav-link" href="index.html">HOME</a></li>
+                  <li class="nav-item d-block d-lg-none"><a class="nav-link" href="products.html">SHOP </a></li>
+                  <li class="nav-item d-block d-lg-none"><a class="nav-link" href="media.html">LOOKBOOK</a></li>
+                  <li class="nav-item"><a class="nav-link" href="brands.html">THE BRAND</a></li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+      <!-- main -->
+      <main class="products-page">
+         <!-- menu Section -->
+         <section class="menu mt-4">
+            <nav class="navbar navbar-expand-lg navbar-light overflow-auto navbar-bg">
+               <div class="container justify-content-lg-center">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <ul class="nav nav-tabs justify-content-center flex-nowrap" id="myTab" role="tablist">
+                           <li class="nav-item" role="presentation">
+                              <a href="#" class="nav-link active" id="all-tab" data-toggle="tab" data-target="#all" type="button" role="tab" aria-controls="all" aria-selected="true">ALL</a>
+                           </li>
+                           <li class="nav-item" role="presentation">
+                              <a href="#" class="nav-link" id="hoodies-tab" data-toggle="tab" data-target="#hoodies" type="button" role="tab" aria-controls="hoodies" aria-selected="true">HOODIES</a>
+                           </li>
+                           <li class="nav-item" role="presentation">
+                              <a href="#" class="nav-link" id="shorts-tab" data-toggle="tab" data-target="#shorts" type="button" role="tab" aria-controls="shorts" aria-selected="true">SHORTS</a>
+                           </li>
+                           <li class="nav-item" role="presentation">
+                              <a href="#" class="nav-link" id="pants-tab" data-toggle="tab" data-target="#pants" type="button" role="tab" aria-controls="pants" aria-selected="true">PANTS</a>
+                           </li>
+                           <li class="nav-item" role="presentation">
+                              <a href="#" class="nav-link" id="beanis-tab" data-toggle="tab" data-target="#beanis" type="button" role="tab" aria-controls="beanis" aria-selected="true">BEANIS</a>
+                           </li>
+                           <li class="nav-item" role="presentation">
+                              <a href="#" class="nav-link" id="socks-tab" data-toggle="tab" data-target="#socks" type="button" role="tab" aria-controls="socks" aria-selected="true">SOCKS</a>
+                           </li>
+                           <li class="nav-item" role="presentation">
+                              <a href="#" class="nav-link" id="accessories-tab" data-toggle="tab" data-target="#accessories" type="button" role="tab" aria-controls="accessories" aria-selected="true">ACCESSORIES</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </nav>
+         </section>
+         <!-- Course  -->
+         <section class="products my-3 mt-5">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade  show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+                           <div class="row">
+                              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 product-body">
+                                 <div class="card border-0 wow fadeInUp" data-wow-delay="0.1s">
+                                    <h5 class="product-title">Patchwork Cotton Blend Hoodie</h5>
+                                    <div class="img-div">
+                                       <img src="assets/images/products/white.png" class="card-img-top product-img" alt="product">
+                                    </div>
+                                    <div class="card-body">
+                                       <div class="price-body">
+                                          <p class="card-text cut-price">SAR 63.00 </p>
+                                          <a href="#"><img src="assets/images/icons/cart.png" alt="img"></a>
+                                          <p class="card-text price">SAR 45.00 </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 product-body">
+                                 <div class="card border-0 wow fadeInUp" data-wow-delay="0.2s">
+                                    <h5 class="product-title">Patchwork Cotton Blend Hoodie</h5>
+                                    <div class="img-div">
+                                       <img src="assets/images/products/green (1).png" class="card-img-top product-img" alt="product">
+                                    </div>
+                                    <div class="card-body">
+                                       <div class="price-body">
+                                          <p class="card-text cut-price">SAR 63.00 </p>
+                                          <a href="#"><img src="assets/images/icons/cart.png" alt="img"></a>
+                                          <p class="card-text price">SAR 45.00 </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 product-body">
+                                 <div class="card border-0 wow fadeInUp" data-wow-delay="0.3s">
+                                    <h5 class="product-title">Patchwork Cotton Blend Hoodie</h5>
+                                    <div class="img-div">
+                                       <img src="assets/images/products/dark-heather.png" class="card-img-top product-img" alt="product">
+                                    </div>
+                                    <div class="card-body">
+                                       <div class="price-body">
+                                          <p class="card-text cut-price">SAR 63.00 </p>
+                                          <a href="#"><img src="assets/images/icons/cart.png" alt="img"></a>
+                                          <p class="card-text price">SAR 45.00 </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 product-body">
+                                 <div class="card border-0 wow fadeInUp" data-wow-delay="0.4s">
+                                    <h5 class="product-title">Patchwork Cotton Blend Hoodie</h5>
+                                    <div class="img-div">
+                                       <img src="assets/images/products/red (1).png" class="card-img-top product-img" alt="product">
+                                    </div>
+                                    <div class="card-body">
+                                       <div class="price-body">
+                                          <p class="card-text cut-price">SAR 63.00 </p>
+                                          <a href="#"><img src="assets/images/icons/cart.png" alt="img"></a>
+                                          <p class="card-text price">SAR 45.00 </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 product-body">
+                                 <div class="card border-0 wow fadeInUp" data-wow-delay="0.5s">
+                                    <h5 class="product-title">Patchwork Cotton Blend Hoodie</h5>
+                                    <div class="img-div">
+                                       <img src="assets/images/products/image-yellow.png" class="card-img-top product-img" alt="product">
+                                    </div>
+                                    <div class="card-body">
+                                       <div class="price-body">
+                                          <p class="card-text cut-price">SAR 63.00 </p>
+                                          <a href="#"><img src="assets/images/icons/cart.png" alt="img"></a>
+                                          <p class="card-text price">SAR 45.00 </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 product-body">
+                                 <div class="card border-0 wow fadeInUp" data-wow-delay="0.6s">
+                                    <h5 class="product-title">Patchwork Cotton Blend Hoodie</h5>
+                                    <div class="img-div">
+                                       <img src="assets/images/products/red.png" class="card-img-top product-img" alt="product">
+                                    </div>
+                                    <div class="card-body">
+                                       <div class="price-body">
+                                          <p class="card-text cut-price">SAR 63.00 </p>
+                                          <a href="#"><img src="assets/images/icons/cart.png" alt="img"></a>
+                                          <p class="card-text price">SAR 45.00 </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 product-body">
+                                 <div class="card border-0 wow fadeInUp" data-wow-delay="0.7s">
+                                    <h5 class="product-title">Patchwork Cotton Blend Hoodie</h5>
+                                    <div class="img-div">
+                                       <img src="assets/images/products/orange.png" class="card-img-top product-img" alt="product">
+                                    </div>
+                                    <div class="card-body">
+                                       <div class="price-body">
+                                          <p class="card-text cut-price">SAR 63.00 </p>
+                                          <a href="#"><img src="assets/images/icons/cart.png" alt="img"></a>
+                                          <p class="card-text price">SAR 45.00 </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 product-body">
+                                 <div class="card border-0 wow fadeInUp" data-wow-delay="0.8s">
+                                    <h5 class="product-title">Patchwork Cotton Blend Hoodie</h5>
+                                    <div class="img-div">
+                                       <img src="assets/images/products/image-royal-blu.png" class="card-img-top product-img" alt="product">
+                                    </div>
+                                    <div class="card-body">
+                                       <div class="price-body">
+                                          <p class="card-text cut-price">SAR 63.00 </p>
+                                          <a href="#"><img src="assets/images/icons/cart.png" alt="img"></a>
+                                          <p class="card-text price">SAR 45.00 </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 product-body">
+                                 <div class="card border-0 wow fadeInUp" data-wow-delay="0.9s">
+                                    <h5 class="product-title">Patchwork Cotton Blend Hoodie</h5>
+                                    <div class="img-div">
+                                       <img src="assets/images/products/black (1).png" class="card-img-top product-img" alt="product">
+                                    </div>
+                                    <div class="card-body">
+                                       <div class="price-body">
+                                          <p class="card-text cut-price">SAR 63.00 </p>
+                                          <a href="#"><img src="assets/images/icons/cart.png" alt="img"></a>
+                                          <p class="card-text price">SAR 45.00 </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 product-body">
+                                 <div class="card border-0 wow fadeInUp" data-wow-delay="1s">
+                                    <h5 class="product-title">Patchwork Cotton Blend Hoodie</h5>
+                                    <div class="img-div">
+                                       <img src="assets/images/products/image-royal-blu.png" class="card-img-top product-img" alt="product">
+                                    </div>
+                                    <div class="card-body">
+                                       <div class="price-body">
+                                          <p class="card-text cut-price">SAR 63.00 </p>
+                                          <a href="#"><img src="assets/images/icons/cart.png" alt="img"></a>
+                                          <p class="card-text price">SAR 45.00 </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 product-body">
+                                 <div class="card border-0 wow fadeInUp" data-wow-delay="1.1s">
+                                    <h5 class="product-title">Patchwork Cotton Blend Hoodie</h5>
+                                    <div class="img-div">
+                                       <img src="assets/images/products/black copy.png" class="card-img-top product-img" alt="product">
+                                    </div>
+                                    <div class="card-body">
+                                       <div class="price-body">
+                                          <p class="card-text cut-price">SAR 63.00 </p>
+                                          <a href="#"><img src="assets/images/icons/cart.png" alt="img"></a>
+                                          <p class="card-text price">SAR 45.00 </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 product-body">
+                                 <div class="card border-0 wow fadeInUp" data-wow-delay="1.2s">
+                                    <h5 class="product-title">Patchwork Cotton Blend Hoodie</h5>
+                                    <div class="img-div">
+                                       <img src="assets/images/products/red (1).png" class="card-img-top product-img" alt="product">
+                                    </div>
+                                    <div class="card-body">
+                                       <div class="price-body">
+                                          <p class="card-text cut-price">SAR 63.00 </p>
+                                          <a href="#"><img src="assets/images/icons/cart.png" alt="img"></a>
+                                          <p class="card-text price">SAR 45.00 </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 product-body">
+                                 <div class="card border-0 wow fadeInUp" data-wow-delay="1.3s">
+                                    <h5 class="product-title">Patchwork Cotton Blend Hoodie</h5>
+                                    <div class="img-div">
+                                       <img src="assets/images/products/cap.png" class="card-img-top product-img" alt="product">
+                                    </div>
+                                    <div class="card-body">
+                                       <div class="price-body">
+                                          <p class="card-text cut-price">SAR 63.00 </p>
+                                          <a href="#"><img src="assets/images/icons/cart.png" alt="img"></a>
+                                          <p class="card-text price">SAR 45.00 </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 product-body">
+                                 <div class="card border-0 wow fadeInUp" data-wow-delay="1.4s">
+                                    <h5 class="product-title">Patchwork Cotton Blend Hoodie</h5>
+                                    <div class="img-div">
+                                       <img src="assets/images/products/white.png" class="card-img-top product-img" alt="product">
+                                    </div>
+                                    <div class="card-body">
+                                       <div class="price-body">
+                                          <p class="card-text cut-price">SAR 63.00 </p>
+                                          <a href="#"><img src="assets/images/icons/cart.png" alt="img"></a>
+                                          <p class="card-text price">SAR 45.00 </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 product-body">
+                                 <div class="card border-0 wow fadeInUp" data-wow-delay="1.5s">
+                                    <h5 class="product-title">Patchwork Cotton Blend Hoodie</h5>
+                                    <div class="img-div">
+                                       <img src="assets/images/products/green (1).png" class="card-img-top product-img" alt="product">
+                                    </div>
+                                    <div class="card-body">
+                                       <div class="price-body">
+                                          <p class="card-text cut-price">SAR 63.00 </p>
+                                          <a href="#"><img src="assets/images/icons/cart.png" alt="img"></a>
+                                          <p class="card-text price">SAR 45.00 </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 product-body">
+                                 <div class="card border-0 wow fadeInUp" data-wow-delay="1.6s">
+                                    <h5 class="product-title">Patchwork Cotton Blend Hoodie</h5>
+                                    <div class="img-div">
+                                       <img src="assets/images/products/pngaaa.com-3470.png" class="card-img-top product-img" alt="product">
+                                    </div>
+                                    <div class="card-body">
+                                       <div class="price-body">
+                                          <p class="card-text cut-price">SAR 63.00 </p>
+                                          <a href="#"><img src="assets/images/icons/cart.png" alt="img"></a>
+                                          <p class="card-text price">SAR 45.00 </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 product-body">
+                                 <div class="card border-0 wow fadeInUp" data-wow-delay="1.7s">
+                                    <h5 class="product-title">Patchwork Cotton Blend Hoodie</h5>
+                                    <div class="img-div">
+                                       <img src="assets/images/products/white.png" class="card-img-top product-img" alt="product">
+                                    </div>
+                                    <div class="card-body">
+                                       <div class="price-body">
+                                          <p class="card-text cut-price">SAR 63.00 </p>
+                                          <a href="#"><img src="assets/images/icons/cart.png" alt="img"></a>
+                                          <p class="card-text price">SAR 45.00 </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 product-body">
+                                 <div class="card border-0 wow fadeInUp" data-wow-delay="1.8s">
+                                    <h5 class="product-title">Patchwork Cotton Blend Hoodie</h5>
+                                    <div class="img-div">
+                                       <img src="assets/images/products/green (1).png" class="card-img-top product-img" alt="product">
+                                    </div>
+                                    <div class="card-body">
+                                       <div class="price-body">
+                                          <p class="card-text cut-price">SAR 63.00 </p>
+                                          <a href="#"><img src="assets/images/icons/cart.png" alt="img"></a>
+                                          <p class="card-text price">SAR 45.00 </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 product-body">
+                                 <div class="card border-0 wow fadeInUp" data-wow-delay="1.9s">
+                                    <h5 class="product-title">Patchwork Cotton Blend Hoodie</h5>
+                                    <div class="img-div">
+                                       <img src="assets/images/products/dark-heather.png" class="card-img-top product-img" alt="product">
+                                    </div>
+                                    <div class="card-body">
+                                       <div class="price-body">
+                                          <p class="card-text cut-price">SAR 63.00 </p>
+                                          <a href="#"><img src="assets/images/icons/cart.png" alt="img"></a>
+                                          <p class="card-text price">SAR 45.00 </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 product-body">
+                                 <div class="card border-0 wow fadeInUp" data-wow-delay="2s">
+                                    <h5 class="product-title">Patchwork Cotton Blend Hoodie</h5>
+                                    <div class="img-div">
+                                       <img src="assets/images/products/red.png" class="card-img-top product-img" alt="product">
+                                    </div>
+                                    <div class="card-body">
+                                       <div class="price-body">
+                                          <p class="card-text cut-price">SAR 63.00 </p>
+                                          <a href="#"><img src="assets/images/icons/cart.png" alt="img"></a>
+                                          <p class="card-text price">SAR 45.00 </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 product-body">
+                                 <div class="card border-0 wow fadeInUp" data-wow-delay="2.1s">
+                                    <h5 class="product-title">Patchwork Cotton Blend Hoodie</h5>
+                                    <div class="img-div">
+                                       <img src="assets/images/products/image-yellow.png" class="card-img-top product-img" alt="product">
+                                    </div>
+                                    <div class="card-body">
+                                       <div class="price-body">
+                                          <p class="card-text cut-price">SAR 63.00 </p>
+                                          <a href="#"><img src="assets/images/icons/cart.png" alt="img"></a>
+                                          <p class="card-text price">SAR 45.00 </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 product-body">
+                                 <div class="card border-0 wow fadeInUp" data-wow-delay="2.2s">
+                                    <h5 class="product-title">Patchwork Cotton Blend Hoodie</h5>
+                                    <div class="img-div">
+                                       <img src="assets/images/products/red (1).png" class="card-img-top product-img" alt="product">
+                                    </div>
+                                    <div class="card-body">
+                                       <div class="price-body">
+                                          <p class="card-text cut-price">SAR 63.00 </p>
+                                          <a href="#"><img src="assets/images/icons/cart.png" alt="img"></a>
+                                          <p class="card-text price">SAR 45.00 </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 product-body">
+                                 <div class="card border-0 wow fadeInUp" data-wow-delay="2.3s">
+                                    <h5 class="product-title">Patchwork Cotton Blend Hoodie</h5>
+                                    <div class="img-div">
+                                       <img src="assets/images/products/orange.png" class="card-img-top product-img" alt="product">
+                                    </div>
+                                    <div class="card-body">
+                                       <div class="price-body">
+                                          <p class="card-text cut-price">SAR 63.00 </p>
+                                          <a href="#"><img src="assets/images/icons/cart.png" alt="img"></a>
+                                          <p class="card-text price">SAR 45.00 </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 product-body">
+                                 <div class="card border-0 wow fadeInUp" data-wow-delay="2.4s">
+                                    <h5 class="product-title">Patchwork Cotton Blend Hoodie</h5>
+                                    <div class="img-div">
+                                       <img src="assets/images/products/image-royal-blu.png" class="card-img-top product-img" alt="product">
+                                    </div>
+                                    <div class="card-body">
+                                       <div class="price-body">
+                                          <p class="card-text cut-price">SAR 63.00 </p>
+                                          <a href="#"><img src="assets/images/icons/cart.png" alt="img"></a>
+                                          <p class="card-text price">SAR 45.00 </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="hoodies" role="tabpanel" aria-labelledby="hoodies-tab">hoodies</div>
+                        <div class="tab-pane fade" id="shorts" role="tabpanel" aria-labelledby="shorts-tab">shorts</div>
+                        <div class="tab-pane fade" id="pants" role="tabpanel" aria-labelledby="pants-tab">pants</div>
+                        <div class="tab-pane fade" id="beanies" role="tabpanel" aria-labelledby="beanies-tab">beanies</div>
+                        <div class="tab-pane fade" id="socks" role="tabpanel" aria-labelledby="socks-tab">socks</div>
+                        <div class="tab-pane fade" id="accessories" role="tabpanel"
+                           aria-labelledby="accessories-tab">accessories</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <!--  footer -->
+      <footer>
+         <div class="container">
+         <div class="row justify-content-center pt-md-3">
+            <div class="col-11 col-md-8 col-lg-5 col-xl-4 subscribe">
+               <form action="" class="d-flex">
+                  <input type="text" id="fname" class="form-control bg-light" name="firstname" placeholder="EMAIL ADDRESS">
+                  <button class="btn btn-black ml-2" type="submit">SUBSCRIBE</button>
+               </form>
+            </div>
+         </div>
+         <div class="row justify-content-center align-items-center">
+            <div class="col-11 col-lg-6 col-xl-7">
+               <div class="logo">
+                  <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+                  <ul class="nav">
+                     <li class="nav-item"><a class="nav-link" href="brands.html">ABOUT</a></li>
+                     <li class="nav-item"><a class="nav-link" href="media.html">MEDIA </a></li>
+                     <li class="nav-item"><a class="nav-link" href="support.html">SUPPORT</a></li>
+                     <li class="nav-item"><a class="nav-link" href="contact.html">CAREERS</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-11 col-lg-6 col-xl-5">
+               <div class="copyright">
+                  <p class="mb-0 ml-lg-3">COPYRIGHT 2022 BAD CO.</p>
+                  <div class="icon d-flex align-items-center">
+                     <a href="javascript:void(0);">
+                     <img src="assets/images/icons/tweeter.png" alt="tweetr">
+                     </a>
+                     <a href="javascript:void(0);">
+                     <img src="assets/images/icons/fb.png" alt="fb">
+                     </a>
+                     <a href="javascript:void(0);">
+                     <img src="assets/images/icons/linkedin.png" alt="linkedin">
+                     </a>
+                     <a href="javascript:void(0);">
+                     <img src="assets/images/icons/instagram.png" alt="instagram">
+                     </a>
+                     <a href="javascript:void(0);">
+                     <img src="assets/images/icons/pinterset.png" alt="pinterest">
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- JavaScript -->
+      <script src="assets/js/jquery-3.5.1.js"></script>
+      <script src="assets/js/popper.min.js"></script>
+      <script src="assets/js/bootstrap.min.js"></script>
+      <script src="assets/js/custom.js"></script>
+      <script>
+         new WOW().init();
+      </script>
+   </body>
+</html>
